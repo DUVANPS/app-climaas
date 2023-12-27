@@ -1,0 +1,71 @@
+.weather{
+    background-color: #fff7;
+    padding: 1.5em 1.5em 2em;
+    border-radius: 1.3em;
+    max-width: 350px;
+    width: 100%;
+}
+.weather_title{
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 0.2em;
+}
+.weather_subtitle{
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+.weather_body{
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    align-items: center;
+}
+.weather_info_title{
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+}
+.weather_list{
+    display: grid;
+    gap: 0.6em;
+}
+.weather_item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.weather_label{
+    font-size: 0.8rem;
+}
+.weather_value{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.weather_footer {
+    display: grid;
+    justify-content: center;
+    gap: 1em;
+}
+.weather_temp{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.weather_btn{
+    border: none;
+    padding: 0.5em 1.5em;
+    border-radius: 0.9em;
+    color: white;
+    background-color: rgba(16, 110, 16, 0.628);
+    
+}
+.weather_btn:hover{
+
+    background-color:  rgba(7, 66, 7, 0.628);
+    border-radius: 1.5em;
+    transform: scale(1.1);
+}
+
+
